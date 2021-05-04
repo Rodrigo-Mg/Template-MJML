@@ -1,0 +1,240 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            <mj-all font-family="Arial" />
+
+            <mj-class name="pinkish-purple" color="#A69CD9"/>
+        </mj-attributes>
+
+        <mj-style>
+            td div .texto-de-convidado {
+                color: #fff!important;
+                font-size: 14px;
+                line-height: 16px;
+                
+            }
+
+            td div .texto-de-convidado img{
+                padding: 0 0px 0 20px!important;
+                width: 14px!important;
+            }
+
+        @media(max-width:480px){
+
+            br{
+                display:none;           
+            }
+    
+             div .img-doutor-1 td {          /*text-doutor são os textos de descrição de evento das imagens dos doutores palestrantes*/
+               padding: 4px!important;
+               width:  220px!important ;
+            }
+
+             div .img-doutor-1  {
+               padding: 20px!important;
+               width:  220px!important ;
+            }
+
+            div .text-doutor-1 div{
+               text-align:left!important;
+               font-size: 14px!important;
+              
+            }
+
+            div td .text-bottom-info div{    /*O segundo texto da caixa roxa embaixo dos doutores*/
+                font-size: 12px!important;
+                text-align: center;
+                padding:0px!important;
+            }
+
+            .pre-footer-section div{
+                text-align:center!important;
+            }
+
+            .footer-info{
+                padding:10px 70px !important;
+            }
+
+            .footer-info-2 div{
+                text-align:center!important;
+        
+            }
+
+
+        }
+
+        @media(max-width: 350px){
+
+            .cover-img {
+                display:none;
+            }
+
+            div .bottom-info div img {
+               display:none;
+            }
+            
+            .footer-info {
+                padding:10px 60px!important;
+            }
+
+
+            }
+        }
+    
+        </mj-style>
+    </mj-head>
+
+    <mj-body background-color="#fff">
+<!--header-->
+        <mj-section padding="0px">
+            <mj-column background-color="#EFEFEF">
+               <mj-text align="center" font-size="12px" text-decoration="underline" color="#3E37EF" line-height="30px">
+                    <a href="#" target="_blank">visualizar no navegador<a/>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+<!--brand-logo-->
+        <mj-section padding="20px 0px 0px 0px">
+            <mj-column  background-color="#fff">
+                <mj-image align="left" src="img/logo.jpg" alt="" width="157.48px" />
+            </mj-column>
+        </mj-section>
+<!--cover-img-->
+        <mj-section>
+            <mj-column>
+                <mj-image css-class="cover-img" src="img/banner-generico.png" alt="" width="600px" padding="0px" />
+            </mj-column>
+        </mj-section>
+<!--main-text-->        
+        <mj-section padding="10px">
+            <mj-column>
+                <mj-text font-size="16px" font-weight="bold"  line-height="24px">
+                    Incididunt sit
+                </mj-text>
+
+                 <mj-text font-size="16px"  line-height="24px">
+                    Labore ipsum commodo exercitation id occaecat ex nostrud pariatur aliqua.
+                </mj-text>
+
+                <mj-text font-size="16px"  line-height="24px">
+                    Laborum eu adipisicing consectetur amet ea est id ea cillum tempor.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+<!--invite-info-->
+        <mj-section padding="14px" css-class="div-invite">
+            <mj-column css-class="img-doutor-1"><!--speaker1-->
+                <mj-image src="img/profile-pic.jpg" alt="" width="85px" align="left"/>
+
+                <mj-text css-class="text-doutor-1" mj-class="pinkish-purple" font-size="18px" padding-right="90px" line-height="24px">
+                    <a style="color:#424F9D; text-decoration:none;" href="#" target="_blank">Lorem:<strong> Adipisicing amet amet adipisicing duis ex dolor </strong></a>
+                </mj-text>
+
+                <mj-text font-size="14px">
+                   <strong>Adipisicing exe</strong>
+                     <br />(Occaecat officia)
+                </mj-text>  
+            </mj-column>
+
+            <mj-column css-class="img-doutor-1"><!--speaker2-->
+                <mj-image src="img/profile-pic.jpg" alt="" width="85px" align="left" padding="10px 0px" />
+
+                <mj-text css-class="text-doutor-1" mj-class="pinkish-purple" font-size="18px" line-height="24px"  padding="10px 0px" padding-right="15px" >
+                   <a style="color:#424F9D; text-decoration:none;" href="#" target="_blank"> Ipsum:<strong>   Adipisicing amet amet adipisicing duis ex dolor</strong></a>
+                </mj-text>
+
+                <mj-text font-size="14px"  padding="8px 0px" line-height="16px">
+                   <strong>Adipisicing exe</strong>
+                     <br />(Occaecat officia) 
+                </mj-text>  
+            </mj-column>
+        </mj-section>
+<!--bottom-info-->
+        <mj-spacer height="0px" />
+        <mj-section background-color="#A69CD9" >
+            <mj-column css-class="bottom-info">
+                <mj-text>
+                    <span class="texto-de-convidado">
+                        <img src="img/site-icon.png" />
+                        Lorem Ispum:<strong><a href="#" target="_blank" style="text-decoration:none; color:#fff;"> Enim reprehenderit tempor   </a></strong>
+                    </span>
+                </mj-text>
+
+                <mj-text css-class="text-bottom-info" font-size="18px" color="#fff" padding="0px 46px" line-height="24px">
+                   Lorem Ispum:<strong> Ipsum nisi cupidatat nulla minim eiusmod  </strong>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+<!--pre-footer?-->
+    <mj-wrapper>
+        <mj-section><!--primeira caixa-->
+
+            <mj-column>
+                <mj-text css-class="pre-footer-section" mj-class="pinkish-purple" align="right" font-size="20px" line-height="21px">
+                    <span>
+                        <strong><a href="#" target="_blank" style="text-decoration:underline; color:#424F9D;">Clique aqui</a></strong> e saiba mais <img src="img/seta-direita.png" width="17px">
+                    </span>
+                </mj-text>
+            </mj-column>
+        </mj-section>   
+
+        <mj-section>
+    
+            <mj-column width="100%"> 
+                <mj-text css-class="pre-footer-section" font-size="16px" font-weight="bold" line-height="24px" padding="20px 50px">
+                     Adipisicing amet amet!!
+                </mj-text>
+
+                <mj-divider padding="15px 50px" border-width="1px" border-color="#C3C4C5"/>
+            </mj-column>
+        </mj-section>
+    </mj-wrapper> 
+<!--footer-->
+
+<mj-wrapper padding="0px">
+<!--logo-footer-sonofi-->
+    <mj-section>
+        <mj-column>
+            <mj-image src="img/logo.jpg" alt="" width="130px" align="left" padding="0 55px"/>
+        </mj-column>
+    </mj-section>
+
+    <mj-section>
+        <mj-column>
+            <mj-text css-class="footer-info" font-size="13px" line-height="21px" color="#111111" padding="0px 0px 0 60px">
+                ‌Sit ut ut velit ipsum quis officia reprehenderit.
+                <br>Lorem Ispum <br>
+                S‌ão Paulo, SP 9348546-65
+            </mj-text>
+
+        </mj-column>
+
+        <mj-column>
+            <mj-text css-class="footer-info" font-size="13px" line-height="21px" color="#111111" padding="0px 0px 0px 60px">
+                 Adipisicing amet amet adipisicing duis ex dolor
+                 Quis ullamco dolore sit ullamco.
+            </mj-text>
+        </mj-column>
+    </mj-section>
+
+    <mj-section>
+        <mj-column>
+            <mj-text css-class="footer-info-2" text-decoration="underline" line-height="21px" padding="0px 60px">
+                <a href="#" style="color:#111111;" target="_blank">Lorem Ispum<br>
+                - dolore sit ullamco</a>
+            </mj-text>
+        </mj-column>
+
+        <mj-column>
+            <mj-text css-class="footer-info-2" align="right" font-weight="bold" padding="25px 40px">
+                RDD2-BB8-BD-1-C3PO
+            </mj-text>
+        </mj-column>
+        
+    </mj-section>
+
+    </mj-wrapper>
+    </mj-body>
+</mjml>
+
